@@ -88,18 +88,7 @@ function App() {
           </div>
         </div>
 
-        {/* 數據圖表區：訂閱數歷史成長 */}
-        <SubscriberChart data={currentChartData} />
 
-        {/* 推薦影片區：最高觀看數影片 */}
-        <TopVideos
-          videos={topVideos}
-          loading={topLoading}
-          onVideoClick={(v) => {
-            setSelectedVideo(v);
-            setShowModal(true);
-          }}
-        />
       </div>
 
       {/* 頁尾 */}
