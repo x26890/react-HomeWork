@@ -20,7 +20,7 @@ function App() {
   const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
 
   // --- 狀態管理 ---
-  const [selectedMemberId, setSelectedMemberId] = useState(MEMBER_LIST[0].id);
+  const [selectedMemberId,] = useState(MEMBER_LIST[0].id);
   const [showModal, setShowModal] = useState(false);
 
   // --- 1. 頻道數據與圖表數據 Hook ---
@@ -67,12 +67,7 @@ function App() {
         )}
 
         {/* 成員選擇器元件 */}
-        <MemberSelector
-          members={members}
-          selectedMember={selectedMember}
-          onSelectMember={(m) => setSelectedMemberId(m.id)}
-          memberConfig={MEMBER_LIST}
-        />
+
 
         {/* 核心資訊區：頻道資訊卡 + 影片預覽 */}
         <div className="row g-4 align-items-stretch mb-5">
@@ -89,7 +84,7 @@ function App() {
         </div>
 
         {/* 數據圖表區：訂閱數歷史成長 */}
-        <SubscriberChart data={currentChartData} />
+       
 
         {/* 推薦影片區：最高觀看數影片 */}
         <TopVideos
