@@ -1,0 +1,69 @@
+/* src/App.css */
+
+.scale-110 { 
+  transform: scale(1.1); 
+  z-index: 5; 
+  opacity: 1 !important; 
+}
+
+.text-truncate-2 { 
+  display: -webkit-box; 
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical; 
+  overflow: hidden; 
+}
+
+.shadow-hover-bright:hover { 
+  border-color: #0dcaf0 !important; 
+  box-shadow: 0 0 15px rgba(13,202,240,0.3); 
+}
+
+.shadow-hover-fire:hover { 
+  border-color: #ffc107 !important; 
+  box-shadow: 0 0 15px rgba(255,193,7,0.2); 
+  transform: translateY(-5px); 
+  transition: 0.3s; 
+}
+
+.modal-overlay { 
+  position: fixed; 
+  top:0; 
+  left:0; 
+  width:100%; 
+  height:100%; 
+  background:rgba(0,0,0,0.9); 
+  z-index:9999; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+}
+
+.modal-content-custom { 
+  width:95%; 
+  max-width:900px; 
+  border:2px solid #0dcaf0; 
+  background:#000; 
+  border-radius: 8px; 
+  overflow:hidden; 
+}
+
+.custom-scrollbar::-webkit-scrollbar { 
+  width: 4px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb { 
+  background: #0dcaf0; 
+}
+
+.text-electric-purple { 
+  color: #A020F0 !important; 
+}
+
+.border-electric-purple { 
+  border-color: #A020F0 !important; 
+}
+
+.border-selected-purple { 
+  border-color: #A020F0 !important; 
+  box-shadow: 0 0 15px rgba(160, 32, 240, 0.6); 
+}

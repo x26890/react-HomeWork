@@ -1,0 +1,15 @@
+export const MEMBER_LIST = [
+  { id: 'UCjv4bfP_67WLuPheS-Z8Ekg', uploadId: 'UUjv4bfP_67WLuPheS-Z8Ekg', name: '浠Mizuki Channel', group: '浠Mizuki' },
+  { id: 'UCbTv4OeHE9p1akLhKfgW8WQ', uploadId: 'UUbTv4OeHE9p1akLhKfgW8WQ', standbyId: 'nKdN2Z8VhzY', name: '澪Rei Channel', group: '霓neo(n)' },
+  { id: 'UCZTw6BZCzfjCarjJMRpU0Wg', uploadId: 'UUZTw6BZCzfjCarjJMRpU0Wg', standbyId: '4ujEybcK9Q0', name: '煌Kirali Channel', group: '霓neo(n)' },
+  { id: 'UCxI5FyblWfEVBJDbSwRPzyw', uploadId: 'UUxI5FyblWfEVBJDbSwRPzyw', standbyId: 'jb5i7cCEAEo', name: '橙Yuzumi Channel', group: '霓neo(n)' },
+  { id: 'UCB3at_yiqFJh31c0ztE4MVA', uploadId: 'UUB3at_yiqFJh31c0ztE4MVA', standbyId: 'lzZq-VmijEA', name: '宵Yoruno', group: '月蝕屋MΦONLIT' },
+  { id: 'UCHVkG_htYhk-JmJ5RWYMXzw', uploadId: 'UUHVkG_htYhk-JmJ5RWYMXzw', name: '朔Sakuro Channel', group: '月蝕屋MΦONLIT' },
+  { id: 'UCjmLYMFRI56fZteeYu7kkpg', uploadId: 'UUjmLYMFRI56fZteeYu7kkpg', name: '朧Oboro Channel', group: '月蝕屋MΦONLIT' },
+  { id: 'UCtTU6L8VDMdz0E62TxHbIZg', uploadId: 'UUtTU6L8VDMdz0E62TxHbIZg', name: 'KSP', group: '合作藝人' },
+  { id: 'UCs5FNYPHeZz5f7N1BDExxfg', uploadId: 'UUs5FNYPHeZz5f7N1BDExxfg', name: '玖玖巴', group: '合作藝人' },
+  { id: 'UC2mtxQezpgWjqMXF6WkuMiw', uploadId: 'UU2mtxQezpgWjqMXF6WkuMiw', name: '實Hitomi', group: 'meridian' },
+  { id: 'UCyO8Nae_zF-OpxtbL01Dwow', uploadId: 'UUyO8Nae_zF-OpxtbL01Dwow', name: '煦Hiyori', group: 'meridian' },
+  { id: 'UC8zQumEzXBpWSmbHmr8wMKw', uploadId: 'UU8zQumEzXBpWSmbHmr8wMKw', name: '雪Koyuki', group: 'meridian' },
+  { id: 'UC6NXFJInhUYGdKeFHhPrtpA', uploadId: 'UU6NXFJInhUYGdKeFHhPrtpA', name: '幸Sachi', group: 'meridian' },
+];
